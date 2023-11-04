@@ -1,0 +1,56 @@
+.MainContainer{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    margin: 20px;
+    padding: 20px;
+}
+.filePlace{
+    border: 2px solid black;
+    border-radius: 20px;
+    height: 500px;
+    width: 500px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    font-size: 20px;
+    font-weight: 500px;
+}
+
+/* .filePlace input{
+    height: 50px;
+    border-radius: 20px;
+    border: 2px solid black;
+    font-size: 20px;
+} */
+
+button{
+    border: 2px solid black;
+    font-size: 30px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: green;
+}
+
+input[type=file] {
+    display: block;
+    color: red;
+    font-style: oblique;
+    border: 1px solid black;
+    border-radius: 20px;
+    font-size: 20px;
+    padding: 5px 0 5px 80px;
+    width: 200px;
+    
+  }
+  input[type=file]::file-selector-button {
+    display: none;
+    text-align: center;
+  }
+  p{
+    font-size: 30px;
+  }
